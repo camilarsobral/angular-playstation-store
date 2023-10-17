@@ -1,0 +1,35 @@
+.container-pricing {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+
+	width: 100%;
+	height: 70px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	color: whitesmoke;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pricing-value {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pricing-value-console {
+	display: flex;
+}
+
+.pricing-value-console>span {
+	font-weight: bolder;
+	color: aqua;
+	margin-right: 5px;
+}
+
+.pricing-value-console>p {
+	text-transform: uppercase;
+}
