@@ -1,0 +1,13 @@
+.container-footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #003697;
+	width: 100%;
+	height: 200px;
+	margin-top: 80px;
+	color: #fff;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
